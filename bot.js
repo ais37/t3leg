@@ -1,5 +1,7 @@
 var Discord = require('discord.js');
 var client = new Discord.Client();
+var client2 = new Discord.Client2();
+var client3 = new Discord.Client3();
 
 client.on('message', message => {
   if (!message.guild) return;
